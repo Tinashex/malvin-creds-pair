@@ -9,7 +9,7 @@ const {
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore
-} = require("@whiskeysockets/baileys");
+} = require("@itsukichan/baileys");
 
 function removeFile(FilePath) {
     if (!fs.existsSync(FilePath)) return false;
